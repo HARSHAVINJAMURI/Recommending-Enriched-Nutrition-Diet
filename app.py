@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import os
-app = Flask(__name__)
+
+# Specify the path to the folder where HTML files are stored
+app = Flask(__name__, template_folder='.')
 
 dataset_path = 'dataset.xlsx'
 dataset = pd.read_excel(dataset_path)
@@ -103,4 +105,3 @@ def filter_dataset1(data, age, gender, detail):
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=True, host='0.0.0.0', port=port)
-    
