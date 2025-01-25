@@ -1,4 +1,4 @@
-flask==your_version
+Flask==2.2.5
 numpy==1.24.3
 pandas==2.0.3
 other_dependencies==versions
