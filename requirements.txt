@@ -1,4 +1,4 @@
 Flask==2.2.5
-numpy==1.24.3
 pandas==2.0.3
-other_dependencies==versions
+openpyxl==3.1.2
+numpy==1.24.3
