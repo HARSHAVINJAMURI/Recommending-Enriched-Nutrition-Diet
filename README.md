@@ -53,26 +53,26 @@ To set up the application locally:
 ## Project Structure
 Recommending-Enriched-Nutrition-Diet/
 ```bash
-- ├── app.py
-- ├── dataset.xlsx
-- ├── dataset0.xlsx
-- ├── index.html
-- ├── index1.html
-- ├── index2.html
-- ├── index3.html
-- ├── requirements.txt
-- ├── result.html
-- └── result0.html
+├── app.py
+├── dataset.xlsx
+├── dataset0.xlsx
+├── index.html
+├── index1.html
+├── index2.html
+├── index3.html
+├── requirements.txt
+├── result.html
+└── result0.html
 ```
-- app.py: Main application file containing the Flask server and route definitions.
-- dataset.xlsx & dataset0.xlsx: Datasets containing nutritional information.
-- index.html and other HTML files: Frontend templates for various pages.
-- requirements.txt: List of required Python packages.
+- **app.py**: Main application file containing the Flask server and route definitions.
+- **dataset.xlsx & dataset0.xlsx**: Datasets containing nutritional information.
+- **index.html and other HTML files**: Frontend templates for various pages.
+- **requirements.txt**: List of required Python packages.
 
 ## Future Enhancements
-- User Authentication: Implement user login and profile management.
-- Expanded Database: Incorporate a broader range of health conditions and dietary recommendations.
-- Interactive Features: Add charts and visualizations for better user engagement.
+- **User Authentication**: Implement user login and profile management.
+- **Expanded Database**: Incorporate a broader range of health conditions and dietary recommendations.
+- **Interactive Features**: Add charts and visualizations for better user engagement.
 ## Contributing
 - Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
